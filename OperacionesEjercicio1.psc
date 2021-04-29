@@ -13,7 +13,7 @@ Algoritmo ejercicio1
 	
 	//tiempoTranscurrido = tiempoPlaneta * AÑOS_TIERRA;
 	
-	Escribir ""
+	Escribir "";
 	//Escribir "han pasado " tiempoTranscurrido " años Cooper";
 	Escribir "han pasado " tiempoPlaneta * AÑOS_TIERRA " años en la Tierra Cooper";
 	
