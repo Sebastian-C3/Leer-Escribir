@@ -1,21 +1,21 @@
 Algoritmo ejercicio1
 	
-	definir Aﾃ前S_TIERRA Como Real;
-	definir tiempoPlaneta, tiempoTranscurrido Como Real;
+	definir AﾑOS_TIERRA Como Real;
+	definir horasPlaneta, tiempoTranscurrido Como Real;
 	
-	Aﾃ前S_TIERRA = 7;
-	tiempoPlaneta = 0;
+	AﾑOS_TIERRA = 7;
+	horasPlaneta = 0;
 	tiempoTranscurrido = 0;
 	
 	
 	Escribir "Ingrese cantidad de horas que estuvo en el planeta de Miller";
-	Leer tiempoPlaneta;
+	Leer horasPlaneta;
 	
-	//tiempoTranscurrido = tiempoPlaneta * Aﾃ前S_TIERRA;
+	//tiempoTranscurrido = horasPlaneta * AﾑOS_TIERRA;
 	
 	Escribir "";
-	//Escribir "han pasado " tiempoTranscurrido " aﾃｱos Cooper";
-	Escribir "han pasado " tiempoPlaneta * Aﾃ前S_TIERRA " aﾃｱos en la Tierra Cooper";
+	//Escribir "han pasado " tiempoTranscurrido " as Cooper";
+	Escribir "han pasado " horasPlaneta * AﾑOS_TIERRA " as en la Tierra Cooper";
 	
 	
 FinAlgoritmo
