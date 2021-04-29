@@ -2,11 +2,11 @@ Algoritmo ejercicio2
 	
 	Definir nombreUsuario, emailUsuaruio como Texto;
 	
-	//consultar si las variables texto y caracter se deben inicializar con "caracter vacio";
+	//consultar si las variables texto y caracter se deben inicializar con "caracter vacio"
 	
-	Escribir "Nombre";
+	Escribir "Ingrese su nombre completo";
 	Leer nombreUsuario;
-	Escribir "email";
+	Escribir "Ingrese su email";
 	Leer emailUsuaruio;
 	
 	Mostrar "Email del Usuario " nombreUsuario ": " emailUsuaruio; 
