@@ -1,9 +1,11 @@
 Algoritmo ejercicio4
 	
+	Definir CANT_MESES Como Entero;
 	Definir cantMascotas, pesoAlimento, cantBolsas Como Entero;
 	definir precioAlimento, gastoTotal Como Real;
 	definir marcaAlimento como Texto;
 	
+	CANT_MESES = 12;
 	cantMascotas = 0;
 	pesoAlimento =0;
 	cantBolsas = 0;
@@ -21,11 +23,11 @@ Algoritmo ejercicio4
 	Escribir "Cantidad de mascotas";
 	Leer cantMascotas;
 	
-	//gastoTotal = cantBolsas * precioAlimento * 12;
+	//gastoTotal = cantBolsas * precioAlimento * CANT_MESES;
 	
-	//Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un aÃ±o: $" gastoTotal;
+	//Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un año: $" gastoTotal;
 	
-	Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un aÃ±o: $" cantBolsas*precioAlimento*12;
+	Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un año: $" cantBolsas*precioAlimento*CANT_MESES;
 	
 	//cantidad de meses pudo ser una constante? no se me ocurrio nombre
 	
