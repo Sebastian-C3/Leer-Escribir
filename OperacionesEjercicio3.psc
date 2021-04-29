@@ -1,6 +1,6 @@
 Algoritmo ejercicio3
 	
-	Definir cantAlumnos,alumnosAusentes Como Entero
+	Definir cantAlumnos,alumnosAusentes Como Entero;
 	definir alumnnoDormido como logico;
 	
 	cantAlumnos = 1;
@@ -20,9 +20,9 @@ Algoritmo ejercicio3
 			
 			cantAlumnos <- cantAlumnos+1;
 		FinSi
-		Borrar Pantalla
+		Borrar Pantalla;
 		
-	Hasta Que cantAlumnos=16
+	Hasta Que cantAlumnos=16;
 	
 	Escribir 'Hoy se durmieron ' alumnosAusentes " estudiantes";
 	
