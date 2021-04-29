@@ -1,6 +1,8 @@
 Algoritmo ejercicio2
 	
 	Definir nombreUsuario, emailUsuaruio como Texto;
+	nombreUsuario = "def nombre completo";
+	emailUsuaruio = "def email";
 	
 	//consultar si las variables texto y caracter se deben inicializar con "caracter vacio"
 	
