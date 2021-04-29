@@ -21,11 +21,11 @@ Algoritmo ejercicio4
 	Escribir "Cantidad de mascotas";
 	Leer cantMascotas;
 	
-	//gastoTotal = cantBolsas * precioAlimento * 12
+	//gastoTotal = cantBolsas * precioAlimento * 12;
 	
-	//Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un año: $" gastoTotal;
+	//Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un aÃ±o: $" gastoTotal;
 	
-	Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un año: $" cantBolsas*precioAlimento*12;
+	Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un aÃ±o: $" cantBolsas*precioAlimento*12;
 	
 	//cantidad de meses pudo ser una constante? no se me ocurrio nombre
 	
