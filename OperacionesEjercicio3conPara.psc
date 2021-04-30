@@ -1,31 +1,28 @@
-Algoritmo ejercicio3
+Algoritmo ejercicio3ConPara
 	
-	Definir cantAlumnos,alumnosAusentes Como Entero;
+	Definir cantAlumnos,alumnosAusentes,contador Como Entero;
 	definir alumnnoDormido como logico;
 	
-	cantAlumnos = 1;
-	alumnosAusentes = 0;
+	cantAlumnos <- 1;
+	alumnosAusentes <- 0;
+	contador= 0;
 	
-	Repetir
+	Para contador<-1 Hasta 15 Hacer
 		Escribir "Tipear 1 para presente o 0 para ausentes";
-		Escribir 'alumno ',cantAlumnos;
+		Escribir "alumno ",contador;
 		Leer alumnnoDormido;
 		
-		Si alumnnoDormido=Falso Entonces;
-			
+		Si alumnnoDormido=Falso Entonces
 			alumnosAusentes <- alumnosAusentes+1;
 			cantAlumnos <- cantAlumnos+1;
-			
 		SiNo
-			
 			cantAlumnos <- cantAlumnos+1;
 		FinSi
+		
 		Borrar Pantalla;
 		
-	Hasta Que cantAlumnos=16;
+	FinPara
 	
 	Escribir "Hoy se durmieron ",alumnosAusentes," estudiantes de 15 totales";
-	
-	//consultar si variable "cantAlumnos" puede ser una constante
-	
+
 FinAlgoritmo
