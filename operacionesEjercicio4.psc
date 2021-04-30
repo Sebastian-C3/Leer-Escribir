@@ -9,6 +9,7 @@ Algoritmo ejercicio4
 	definir precioAlimento Como Real;
 	precioAlimento = 0;
 	definir marcaAlimento como Texto;
+	marcaAlimento = "def marca alimento";
 		
 	Escribir "Ingrese marca de la bolsa de aliemento";
 	Leer marcaAlimento;
@@ -21,6 +22,6 @@ Algoritmo ejercicio4
 	Escribir "Cantidad de mascotas";
 	Leer cantMascotas;
 	
-	Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg para " cantMascotas " mascotas se gasta en un año: $" cantBolsas*precioAlimento*CANT_MESES;
+	Mostrar "Con " cantBolsas " bolsas de " pesoAlimento "Kg marca " marcaAlimento " para " cantMascotas " mascotas se gasta en un año: $" cantBolsas*precioAlimento*CANT_MESES;
 	
 FinAlgoritmo
