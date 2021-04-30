@@ -1,16 +1,15 @@
 Algoritmo ejercicio4
 	
 	Definir CANT_MESES Como Entero;
-	Definir cantMascotas, pesoAlimento, cantBolsas Como Entero;
-	definir precioAlimento Como Real;
-	definir marcaAlimento como Texto;
-	
 	CANT_MESES = 12;
+	Definir cantMascotas, pesoAlimento, cantBolsas Como Entero;
 	cantMascotas = 0;
 	pesoAlimento =0;
 	cantBolsas = 0;
+	definir precioAlimento Como Real;
 	precioAlimento = 0;
-	
+	definir marcaAlimento como Texto;
+		
 	Escribir "Ingrese marca de la bolsa de aliemento";
 	Leer marcaAlimento;
 	Escribir "Ingrese peso de la bolsa de alimento";
