@@ -7,13 +7,15 @@ Algoritmo ejercicioExtra
 	hipotenusa = 0;
 	
 	Escribir "Ingrese cateto A";
-	Leer catetoA;
+	Leer catetoA
 	
 	Escribir "Ingrese cateto B";
-	Leer catetoB;
+	Leer catetoB
 	
-	hipotenusa = catetoA^2 + catetoB^2;
-	hipotenusa = rc(hipotenusa);
+	//hipotenusa = catetoA^2 + catetoB^2;
+	//hipotenusa = rc(hipotenusa);
+	
+	hipotenusa = rc(catetoA^2 + catetoB^2);
 	
 	Escribir "Hipotenusa = " hipotenusa;
 	
